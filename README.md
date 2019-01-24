@@ -8,4 +8,4 @@ It automatically pulls the chrome URL bar and examins the stage and challenge yo
 
 Once running it will sit minimized in the system tray, right click to interact with it
 
-To add to start-up, darg and drop the EXE into `C:\Users\(name)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`, you can also get here by running shell:startup
+To add to start-up, darg and drop the EXE into `C:\Users\(name)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`, you can also get here by running `shell:startup`
