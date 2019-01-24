@@ -1,4 +1,4 @@
-# cd-rich-presence
+# Cyber Discovery Rich Presence
 
 [Download from here](https://github.com/CyberDiscovery/cd-rich-presence/releases/latest)
 
