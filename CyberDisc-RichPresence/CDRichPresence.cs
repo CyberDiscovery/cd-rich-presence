@@ -97,17 +97,7 @@ namespace CyberDisc_RichPresence
                 DoEssentialsUpdates(url);
                 return;
             }
-            if (url.Contains("elite"))
-            {
-                DoEliteUpdates(url);
-                return;
-            }
             SetRP("Idle", "", "cd");
-        }
-
-        private void DoEliteUpdates(string url)
-        {
-            SetRP("Working on elite", "Wait what this isnt possible", "game");
         }
 
         private void DoEssentialsUpdates(string url)
