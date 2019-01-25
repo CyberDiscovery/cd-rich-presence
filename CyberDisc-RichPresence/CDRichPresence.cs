@@ -107,12 +107,30 @@ namespace CyberDisc_RichPresence
 
         private void DoEliteUpdates(string url)
         {
-            SetRP("Playing elite", "Wait what this isnt possible", "game");
+            SetRP("Working on elite", "Wait what this isnt possible", "game");
         }
 
         private void DoEssentialsUpdates(string url)
         {
-            SetRP("Playing essentials", "Coming soon", "game");
+            try
+            {
+                string[] args = url.Split('/');
+                if (args.Where(s => s.Contains("section")).FirstOrDefault() != null)
+                {
+                    string cdmodule = args.ElementAt(Array.IndexOf(args, "module") + 1);
+                    string cdsection = args.ElementAt(Array.IndexOf(args, "section") + 1);
+                    if (cdsection.Contains('.')) cdsection = cdsection.Split('.')[0];
+                    UpdateRP("", cdmodule, cdsection, "essentials");
+                }
+                else
+                {
+                    SetRP("Working on essentials", "Idle", "essentials");
+                }
+            }
+            catch
+            {
+                SetRP("Working on essentials", "Idle", "essentials");
+            }
         }
 
         private void DoAssesUpdate(string url)
@@ -124,7 +142,7 @@ namespace CyberDisc_RichPresence
             }
             catch
             {
-                SetRP("Idle", "", "assess");
+                SetRP("Working on assess", "Idle", "assess");
                 return;
             }
         }
@@ -144,7 +162,7 @@ namespace CyberDisc_RichPresence
             }
             catch
             {
-                SetRP("Idle", "", "game");
+                SetRP("Working on game", "Idle", "game");
                 return;
             }
         }
@@ -165,7 +183,8 @@ namespace CyberDisc_RichPresence
                     break;
             }
             if (cdstage == "assess") leveltext = "On challenge " + cdchal;
-            SetRP("Playing " + cdstage, leveltext, cdstage);
+            if (cdstage == "essentials") leveltext = "On module M" + cdlevel + "S" + cdchal;
+            SetRP("Working on " + cdstage, leveltext, cdstage);
         }
 
         private string CurrentURL()
