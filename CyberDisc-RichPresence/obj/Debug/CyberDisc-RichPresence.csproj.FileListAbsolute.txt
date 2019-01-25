@@ -1,0 +1,12 @@
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc-RichPresence.csprojAssemblyReference.cache
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc_RichPresence.CDRichPresence.resources
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc_RichPresence.Properties.Resources.resources
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc-RichPresence.csproj.GenerateResource.cache
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc-RichPresence.csproj.CoreCompileInputs.cache
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\bin\Debug\CyberDisc-RichPresence.exe.config
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\bin\Debug\CyberDisc-RichPresence.exe
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\bin\Debug\CyberDisc-RichPresence.pdb
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\bin\Debug\DiscordRPC.dll
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc-RichPresence.csproj.CopyComplete
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc-RichPresence.exe
+C:\Users\natko\Source\Repos\cd-rich-presence\CyberDisc-RichPresence\obj\Debug\CyberDisc-RichPresence.pdb
